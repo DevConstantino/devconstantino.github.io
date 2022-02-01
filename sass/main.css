@@ -1,0 +1,17 @@
+/* Paleta de cores */
+/* Fonte */
+body {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(0), color-stop(50%, #4717f6), to(#0e0b16));
+  background: linear-gradient(0, #4717f6 50%, #0e0b16 100%);
+}
+
+header {
+  height: 150px;
+}
+
+.navbar-brand {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

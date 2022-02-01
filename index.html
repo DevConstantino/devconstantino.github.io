@@ -1,22 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+		<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
+		<script src="bootstrap/dist/js/bootstrap.bundle.js"></script>
 		<link
 			rel="stylesheet"
-			href="bootstrap/dist/css/bootstrap.min.css"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
 		/>
-		<script src="bootstrap/dist/js/bootstrap.bundle.js"></script>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./sass/main.css" />
 	</head>
 	<body>
-		<!-- As a link -->
-		<nav class="navbar navbar-light bg-light">
+		<header class="header shadow-lg">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Navbar</a>
+				<div class="navbar d-flex container-fluid">
+					<div class="d-flex">
+						<p class="navbar-brand">
+							<i class="bi bi-send"></i>
+							Repositórios de devConstantino
+						</p>
+					</div>
+					<div>
+						<i class="bi bi-search"></i>
+						<i class="bi bi-brightness-high"></i>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<ul class="nav nav-tabs">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Clones</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-		</nav>
+		</header>
 	</body>
 </html>
