@@ -1,8 +1,8 @@
 /* Paleta de cores */
-$cor1: #010001;
-$cor2: #30024f;
-$cor3: #5a595a;
-$cor4: #a506b5;
+$cor1: #084177;
+$cor2: #687466;
+$cor3: #cd8d7b;
+$cor4: #fbc490;
 $cor5: #ffff;
 $cor6: #720c89;
 /* Fonte */
@@ -10,9 +10,9 @@ $fonte: "Raleway", sans-serif;
 
 body {
 	height: 100vh;
-	background: linear-gradient(0, $cor4, $cor2, $cor1);
-	background-size: 100% 150%;
-	animation: movement 15s ease infinite;
+	background: linear-gradient(45deg, $cor1, $cor2, $cor3, $cor4);
+	background-size: 300% 350%;
+	animation: movement 20s ease infinite;
 }
 
 header {
@@ -26,12 +26,12 @@ header {
 
 @keyframes movement {
 	0% {
-		background-position: 0% 0%;
+		background-position: 0% 50%;
 	}
 	50% {
-		background-position: 0% 40%;
+		background-position: 30% 50%;
 	}
 	100% {
-		background-position: 0% 0%;
+		background-position: 0% 50%;
 	}
 }

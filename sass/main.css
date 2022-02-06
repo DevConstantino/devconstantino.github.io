@@ -2,11 +2,10 @@
 /* Fonte */
 body {
   height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(0), color-stop(#a506b5), color-stop(#30024f), to(#010001));
-  background: linear-gradient(0, #a506b5, #30024f, #010001);
-  background-size: 100% 150%;
-  -webkit-animation: movement 15s ease infinite;
-          animation: movement 15s ease infinite;
+  background: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
+  background-size: 300% 350%;
+  -webkit-animation: movement 20s ease infinite;
+          animation: movement 20s ease infinite;
 }
 
 header {
@@ -20,25 +19,25 @@ header {
 
 @-webkit-keyframes movement {
   0% {
-    background-position: 0% 0%;
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 0% 40%;
+    background-position: 30% 50%;
   }
   100% {
-    background-position: 0% 0%;
+    background-position: 0% 50%;
   }
 }
 
 @keyframes movement {
   0% {
-    background-position: 0% 0%;
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 0% 40%;
+    background-position: 30% 50%;
   }
   100% {
-    background-position: 0% 0%;
+    background-position: 0% 50%;
   }
 }
 /*# sourceMappingURL=main.css.map */
