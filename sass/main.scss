@@ -1,21 +1,37 @@
 /* Paleta de cores */
-$cor1: #0e0b16;
-$cor2: #a239ca;
-$cor3: #4717f6;
-$cor4: #e7dfdd;
+$cor1: #010001;
+$cor2: #30024f;
+$cor3: #5a595a;
+$cor4: #a506b5;
+$cor5: #ffff;
+$cor6: #720c89;
 /* Fonte */
 $fonte: "Raleway", sans-serif;
 
 body {
 	height: 100vh;
-    background: linear-gradient(0, $cor3 50%, $cor1 100%) ;
+	background: linear-gradient(0, $cor4, $cor2, $cor1);
+	background-size: 100% 150%;
+	animation: movement 15s ease infinite;
 }
 
 header {
-	height: 150px;
+	height: 80px;
 }
 
 .navbar-brand {
 	font-family: $fonte;
-    color: white;
+	color: $cor5;
+}
+
+@keyframes movement {
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 0% 40%;
+	}
+	100% {
+		background-position: 0% 0%;
+	}
 }

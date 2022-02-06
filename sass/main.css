@@ -2,16 +2,43 @@
 /* Fonte */
 body {
   height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(0), color-stop(50%, #4717f6), to(#0e0b16));
-  background: linear-gradient(0, #4717f6 50%, #0e0b16 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(0), color-stop(#a506b5), color-stop(#30024f), to(#010001));
+  background: linear-gradient(0, #a506b5, #30024f, #010001);
+  background-size: 100% 150%;
+  -webkit-animation: movement 15s ease infinite;
+          animation: movement 15s ease infinite;
 }
 
 header {
-  height: 150px;
+  height: 80px;
 }
 
 .navbar-brand {
   font-family: "Raleway", sans-serif;
-  color: white;
+  color: #ffff;
+}
+
+@-webkit-keyframes movement {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 0% 40%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@keyframes movement {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 0% 40%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
