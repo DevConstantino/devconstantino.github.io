@@ -14,11 +14,11 @@
 
 <p> At the moment i'm focusing in two main projects:</p>
 
-- <a href = "https://github.com/DevConstantino/sandraatelier">🔗</a> myReactStrap 🎨
+- <a href = "https://github.com/DevConstantino/myReactStrap">🔗</a> myReactStrap 🎨
 
   - A front-end library based o React and Bootstrap
 
-- <a href = "https://github.com/DevConstantino/sandraatelier">🔗</a> myBackend 🤖
+- <a href = "https://github.com/DevConstantino/myBackend">🔗</a> myBackend 🤖
 
   - My backe-end library
 
